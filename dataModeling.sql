@@ -56,6 +56,12 @@ VALUES ('laurance.vinecnt@gmail.com', 'swordfish', 'LanceVincent');
 INSERT INTO recipes(user_id, recipe_name, recipe_instructions, recipe_privacy)
 VALUES (1, 'banana bread', 'put banana on bread', true);
 
+INSERT INTO recipe_ingredients(ingredient_id, recipe_id)
+VALUES (1, 2);
+
+INSERT INTO ingredients(ingredient_name, ingredient_type)
+VALUES ('banana', 'fruit')
+
 INSERT INTO grocery_lists (grocery_list_id, user_name)
 VALUES (1, 'LanceVincent');
 
